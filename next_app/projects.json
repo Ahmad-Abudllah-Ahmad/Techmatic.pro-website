@@ -1,0 +1,189 @@
+[
+  {
+    "id": 10,
+    "title": "PROJECT 1",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 1/Screenshot 2024-06-30 at 10.04.08 PM.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 1, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 1/Screenshot 2024-06-30 at 10.04.08 PM.png",
+      "/assets/projects/project 1/Screenshot 2024-07-01 at 8.26.22 PM.png",
+      "/assets/projects/project 1/Screenshot 2024-07-01 at 8.27.03 PM.png"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "PROJECT 2",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 2/Screenshot 2024-07-04 at 2.45.55 PM.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 2, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 2/Screenshot 2024-07-04 at 2.45.55 PM.png",
+      "/assets/projects/project 2/Screenshot 2024-07-04 at 2.48.01 PM.png",
+      "/assets/projects/project 2/Screenshot 2024-07-04 at 2.50.56 PM.png"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "PROJECT 3",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 3/Screenshot 2024-07-01 at 2.25.38 PM.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 3, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 3/Screenshot 2024-07-01 at 2.25.38 PM.png",
+      "/assets/projects/project 3/Screenshot 2024-07-01 at 2.26.08 PM.png",
+      "/assets/projects/project 3/fs6.png"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "PROJECT 4",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 4/Screenshot 2024-07-04 at 2.55.01 PM.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 4, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 4/Screenshot 2024-07-04 at 2.55.01 PM.png",
+      "/assets/projects/project 4/Screenshot 2024-07-04 at 2.55.53 PM.png",
+      "/assets/projects/project 4/wp2.png"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "PROJECT 5",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 5/Screenshot 2024-07-01 at 2.23.32 PM.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 5, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 5/Screenshot 2024-07-01 at 2.23.32 PM.png",
+      "/assets/projects/project 5/Screenshot 2024-07-01 at 2.25.10 PM.png",
+      "/assets/projects/project 5/Screenshot 2024-07-01 at 8.39.04 PM.png"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "PROJECT 6",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 6/fs2.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 6, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 6/fs2.png",
+      "/assets/projects/project 6/fs3.png",
+      "/assets/projects/project 6/fs4.png",
+      "/assets/projects/project 6/fs5.png"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "PROJECT 7",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 7/Screenshot 2024-06-30 at 10.10.57 PM.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 7, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 7/Screenshot 2024-06-30 at 10.10.57 PM.png",
+      "/assets/projects/project 7/Screenshot 2024-06-30 at 9.55.14 PM.png"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "AI DASHBOARD",
+    "category": "AI / DASHBOARD",
+    "image": "/assets/projects/project 8/Ai dashboard .png",
+    "height": "h-[500px]",
+    "description": "Advanced AI analytics dashboard.",
+    "gallery": [
+      "/assets/projects/project 8/Ai dashboard .png",
+      "/assets/projects/project 8/ss.jpeg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "PROJECT 9",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 9/Screenshot 2024-12-24 at 1.54.42 AM.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 9, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 9/Screenshot 2024-12-24 at 1.54.42 AM.png"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "PROJECT 10",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 10/Screenshot 2024-12-24 at 1.52.30 AM.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 10, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 10/Screenshot 2024-12-24 at 1.52.30 AM.png"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "WORDPRESS SITE",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 11/wp.png",
+    "height": "h-[500px]",
+    "description": "Custom WordPress solution.",
+    "gallery": [
+      "/assets/projects/project 11/wp.png",
+      "/assets/projects/project 11/wp1.png"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "PROJECT 12",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 12/2.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 12, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 12/2.png",
+      "/assets/projects/project 12/Fs1.png"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "PROJECT 13",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 13/1.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 13, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 13/1.png"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "PROJECT 14",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 14/wix.png",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 14, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 14/wix.png"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "PROJECT 15",
+    "category": "WEB DEVELOPMENT",
+    "image": "/assets/projects/project 15/2.jpg",
+    "height": "h-[500px]",
+    "description": "Showcase of Project 15, featuring responsive design and modern web technologies.",
+    "gallery": [
+      "/assets/projects/project 15/2.jpg",
+      "/assets/projects/project 15/3.jpg",
+      "/assets/projects/project 15/Screenshot 2024-12-24 at 3.16.46 AM.png",
+      "/assets/projects/project 15/Screenshot 2024-12-24 at 3.23.35 AM.png",
+      "/assets/projects/project 15/custom gpt.png",
+      "/assets/projects/project 15/ge4f3gswvnchgbjd6gck.jpg"
+    ]
+  }
+]
