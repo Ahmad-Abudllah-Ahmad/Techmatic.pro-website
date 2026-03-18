@@ -335,7 +335,10 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
             </div>
 
             {/* Scrollable Content */}
-            <div className="flex-1 overflow-y-scroll overflow-x-hidden pt-24 pb-12 px-4 md:px-12 overscroll-contain">
+            <div 
+                data-lenis-prevent 
+                className="flex-1 overflow-y-auto overflow-x-hidden pt-24 pb-12 px-4 md:px-12 overscroll-contain"
+            >
                 <div className="container mx-auto max-w-6xl">
                     <div className="mb-12">
                         <motion.h2

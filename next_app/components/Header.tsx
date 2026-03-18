@@ -190,7 +190,8 @@ export function Header() {
                         initial="initial"
                         animate="animate"
                         exit="exit"
-                        className="fixed inset-0 z-[9999] bg-background flex flex-col items-center justify-center md:hidden"
+                        data-lenis-prevent
+                        className="fixed inset-0 z-[9999] bg-background flex flex-col items-center justify-center md:hidden overflow-y-auto"
                     >
                         <motion.div
                             variants={listVariants}

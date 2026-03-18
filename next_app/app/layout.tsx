@@ -40,7 +40,7 @@ export default function RootLayout({
         className={cn(
           montserrat.variable,
           caveat.variable,
-          "antialiased min-h-screen flex flex-col font-sans bg-background text-foreground transition-colors duration-300 overflow-x-hidden"
+          "antialiased min-h-screen flex flex-col font-sans bg-background text-foreground transition-colors duration-300"
         )}
       >
         <PreloaderProvider>

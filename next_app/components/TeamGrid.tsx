@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Linkedin } from "lucide-react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { useRef } from "react";
+import { cn } from "@/lib/utils";
 
 const TEAM_MEMBERS = [
     {
@@ -115,8 +116,18 @@ export function TeamGrid() {
                                     {/* Gradient overlay removed for cleaner look */}
 
                                     <div className="absolute bottom-6 left-0 w-full text-center z-10 transition-transform duration-500 group-hover:-translate-y-2">
-                                        <h3 className="text-xl font-bold font-heading uppercase tracking-wide text-zinc-900">{member.name}</h3>
-                                        <p className="text-[10px] uppercase tracking-widest text-zinc-900/60 font-medium mb-3">{member.role}</p>
+                                        <h3 className={cn(
+                                            "text-xl font-bold font-heading uppercase tracking-wide",
+                                            (member.name === "ABDULRAHMAN" || member.name === "ANEES UR RAHMAN") ? "text-white" : "text-zinc-900"
+                                        )}>
+                                            {member.name}
+                                        </h3>
+                                        <p className={cn(
+                                            "text-[10px] uppercase tracking-widest font-medium mb-3",
+                                            (member.name === "ABDULRAHMAN" || member.name === "ANEES UR RAHMAN") ? "text-white/80" : "text-zinc-900/60"
+                                        )}>
+                                            {member.role}
+                                        </p>
                                         <div className="flex justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                             <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="p-2 bg-[#66C37B]/10 rounded-full hover:bg-[#66C37B]/20 transition-colors">
                                                 <Linkedin className="w-5 h-5 text-[#66C37B]" />
