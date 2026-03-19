@@ -9,7 +9,7 @@ export function Preloader() {
     const containerRef = useRef<HTMLDivElement>(null);
     const textRef = useRef<SVGTextElement>(null);
     const pathname = usePathname();
-    const { setPreloaderFinished } = usePreloader();
+    const { isPreloaderFinished, setPreloaderFinished } = usePreloader();
 
     useEffect(() => {
         const tl = gsap.timeline({
@@ -27,7 +27,8 @@ export function Preloader() {
             gsap.set(text, {
                 strokeDasharray: 2000,
                 strokeDashoffset: 2000,
-                fill: "transparent"
+                fill: "transparent",
+                stroke: "transparent"
             });
 
             // 1. Draw the outline (Stroke Animation)
@@ -61,7 +62,11 @@ export function Preloader() {
     }, [pathname, setPreloaderFinished]); // Trigger on route change
 
     return (
-        <div ref={containerRef} className="fixed inset-0 z-[9999] flex items-center justify-center bg-foreground text-background">
+        <div 
+            ref={containerRef} 
+            className="fixed inset-0 z-[9999] flex items-center justify-center bg-foreground text-background"
+            style={{ transform: !isPreloaderFinished ? "translateY(0%)" : "translateY(-100%)" }}
+        >
             <div className="w-full max-w-4xl px-4">
                 <svg className="w-full h-auto" viewBox="0 0 800 100">
                     <text
@@ -72,7 +77,7 @@ export function Preloader() {
                         textAnchor="middle"
                         className="text-4xl md:text-6xl font-bold font-heading"
                         fill="transparent"
-                        stroke="currentColor"
+                        stroke="transparent"
                         strokeWidth="1"
                         strokeDasharray="2000"
                         strokeDashoffset="2000"

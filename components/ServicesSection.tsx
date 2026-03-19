@@ -46,7 +46,7 @@ export function ServicesSection() {
     };
 
     return (
-        <section ref={containerRef} className="py-32 px-6 md:px-20 bg-gray-300 text-black transition-colors duration-500">
+        <section ref={containerRef} className="py-32 px-6 md:px-20 bg-white text-black transition-colors duration-500">
             <div className="container mx-auto">
                 <motion.div
                     initial="hidden"

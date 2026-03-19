@@ -111,7 +111,7 @@ export const PROJECTS: Project[] = [
     {
         id: 8,
         title: "AI DASHBOARD",
-        category: "WEB DEVELOPMENT",
+        category: "AI PROJECTS",
         image: "/assets/projects/project 8/Ai dashboard .png",
         height: "h-[500px]",
         description: "Advanced AI analytics dashboard providing real-time data visualization and machine learning insights.",
@@ -191,7 +191,7 @@ export const PROJECTS: Project[] = [
     {
         id: 15,
         title: "CUSTOM GPT AGENT",
-        category: "WEB DEVELOPMENT",
+        category: "AI PROJECTS",
         image: "/assets/projects/project 15/2.jpg",
         height: "h-[500px]",
         description: "Integration of a custom GPT agent to provide intelligent conversational AI within a web environment.",
