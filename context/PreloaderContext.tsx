@@ -13,12 +13,13 @@ const PreloaderContext = createContext<PreloaderContextType | undefined>(undefin
 export function PreloaderProvider({ children }: { children: React.ReactNode }) {
     const [isPreloaderFinished, setPreloaderFinished] = useState(false);
     const pathname = usePathname();
+    const [prevPathname, setPrevPathname] = useState(pathname);
 
-    // Reset preloader state on route change
-    useEffect(() => {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
+    // Reset preloader state instantly on route change during render
+    if (pathname !== prevPathname) {
         setPreloaderFinished(false);
-    }, [pathname]);
+        setPrevPathname(pathname);
+    }
 
     return (
         <PreloaderContext.Provider value={{ isPreloaderFinished, setPreloaderFinished }}>

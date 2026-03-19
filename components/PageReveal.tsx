@@ -10,7 +10,7 @@ export function PageReveal({ children }: { children: React.ReactNode }) {
         <motion.div
             initial={{ opacity: 0 }}
             animate={isPreloaderFinished ? { opacity: 1 } : { opacity: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
+            transition={isPreloaderFinished ? { duration: 0.6, ease: "easeOut" } : { duration: 0 }}
         >
             {children}
         </motion.div>

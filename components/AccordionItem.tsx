@@ -37,7 +37,7 @@ export function AccordionItem({ service, isOpen, onClick }: { service: ServicePr
         >
             <button
                 onClick={onClick}
-                className="w-full flex items-center justify-between py-8 md:py-12 px-4 md:px-0 text-left outline-none group"
+                className="w-full flex items-center justify-between py-8 md:py-12 px-4 md:pl-12 text-left outline-none group"
             >
                 <span className={`text-3xl md:text-5xl font-bold font-heading uppercase tracking-tight group-hover:pl-4 transition-all duration-300 ${!isOpen && "text-foreground group-hover:text-black"}`}>
                     {service.title}
@@ -56,7 +56,7 @@ export function AccordionItem({ service, isOpen, onClick }: { service: ServicePr
                         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                         className="overflow-hidden"
                     >
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pb-12 px-4 md:px-0">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pb-12 px-4 md:pl-12">
                             {/* Left: Description & Button */}
                             <div className="space-y-8">
                                 <motion.div

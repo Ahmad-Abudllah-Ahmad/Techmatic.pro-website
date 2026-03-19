@@ -4,6 +4,7 @@
 
 const CATEGORIES = [
     "ALL",
+    "AI PROJECTS",
     "WEB DEVELOPMENT",
     "FINANCE",
     "TRAVEL",
